@@ -13,9 +13,13 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?><?php bloghash_schema_markup( 'html' ); ?> <?php echo bloghash_option( 'dark_mode' ) ? 'data-darkmode="dark"' : ''; ?>>
 <head>
+	 
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<?php wp_head(); ?>
+
+
+
 </head>
 
 <body <?php body_class(); ?>>

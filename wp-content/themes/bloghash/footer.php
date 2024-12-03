@@ -30,6 +30,9 @@
 </div><!-- END #page -->
 <?php do_action( 'bloghash_after_page_wrapper' ); ?>
 
+
+
+
 <?php wp_footer(); ?>
 
 </body>
